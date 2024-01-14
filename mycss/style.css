@@ -1,0 +1,113 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+.background{
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+   .background::before{
+    content: '';
+    background-image: url(../img/background3.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity: 0.5;
+   }
+.navbar ul {
+    list-style-type: none;
+}
+.navbar ul li {
+    float: left;
+    padding: 15px;
+    font-size: large;
+    font-weight: bold;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.navbar ul li a:hover{
+    color: orange;
+}
+.navbar{
+    width: 100%;
+    height: 60px;
+    margin: 0 auto;
+    display: flex;
+    opacity: 0.8;
+}
+.navbar-brand img{
+    border-radius: 10px;
+}
+.cart .fa-shopping-cart{
+    font-size: 30px;
+    color: white;
+}
+ul li ul li{
+    display: block;
+}
+ul li ul{
+    display: none;
+    z-index: 999;
+    background: black;
+    position: absolute;
+    width: 10%;
+}
+ul li:hover ul{
+    display:block;
+}
+.d-block{
+    height: 550px;
+    padding: 20px;
+}
+
+
+.background1{
+    min-height:100vh;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+   }
+   .background1::before{
+    content: '';
+    background-image: url(../img/background4.jpg);
+    background-repeat: repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top:0;
+    left:0;
+    bottom:0;
+    right:0;
+    opacity: 0.8;
+   }
+
+
+
+#nav{
+    z-index: 3;
+}
+
+#myCarousel{
+    z-index: 1;
+}
+.footer-copyright{
+    font-weight: bolder;
+}
+.about{
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+    padding: 15px;
+}
